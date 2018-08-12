@@ -1,0 +1,258 @@
+.form {
+    background-color: #548dca;
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 400px;
+    padding: 5px 10px 15px 10px;
+    box-shadow: 3px 5px 6px #ccc;
+    position: relative;
+    top: 0;
+    border-radius: 5px;
+}
+
+.form--container {
+    padding: 0;
+    height: 0;
+}
+
+.form__input {
+    margin: auto 0;
+    padding: 0;
+    width: 150px;
+
+}
+
+.toolbar {
+    position: absolute;
+    left: -31px;
+    top: 27px;
+    background-color: #f5f6f7;
+    box-shadow: 3px 5px 6px #ccc;
+    padding: 15px;
+    height: 100px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.toolbox {
+    display: none;
+    position: absolute;
+    left: -165px;
+    opacity: .5;
+}
+
+.locationSearch {
+    pointer-events: all;
+
+}
+
+.open--tab--container {
+    position: relative;
+    padding-left: 45px;
+    padding-top: 5px;
+    height: 0;
+    /*left:75%;*/
+
+}
+
+.search__button__img {
+    height: 50px;
+}
+
+.form__location__thumbnail {
+    height: 35px;
+}
+
+.form__location-circle__thumbnail {
+    height: 30px;
+}
+
+.form__hide__thumbnail {
+    height: 40px;
+    padding: 0;
+    transform: rotate(-90deg);
+}
+
+.map-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -100;
+
+}
+
+.map {
+    margin: 0 auto;
+    /*width: 200px;*/
+    /*padding: 20px;*/
+}
+
+.toggle__floor {
+    padding-top: 3px;
+    width: 48px;
+    padding-left: 0;
+    position: absolute;
+    right: 1px;
+    z-index: 1000;
+    top: 67px;
+}
+
+.toggle__QA {
+    width: 40px;
+    padding-left: 0;
+    position: absolute;
+    top: 22px;
+    right: 6px;
+    z-index: 1000;
+}
+
+.compass {
+    position: absolute;
+    right: 40px;
+    top: 157px;
+    width: 75px;
+    z-index: 2000;
+}
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
+
+.form__show__thumbnail {
+    width: 35px;
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    background-color: #548dca;
+    opacity: 0.8;
+    box-shadow: 3px 5px 6px #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Suggestions*/
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: 240px;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 280px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.footer__logo {
+    position: absolute;
+    bottom: 0;
+    max-height: 45px;
+}
+
+.pin {
+    height: 35px;
+    position: absolute;
+    left: -1000px;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.ReactModal__Overlay {
+    background-color: #5d6599;
+    opacity: 0;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
+
+.exit {
+    height: 14px;
+    position: absolute;
+    padding: 5px;
+    right: 5px;
+}
+
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+div + div {
+    top: 50px;
+}
