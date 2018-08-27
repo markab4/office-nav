@@ -14,6 +14,20 @@ A live version of this app can be found at http://bit.ly/office-nav, and for sec
   - Auto-complete search, pre-populating the form with a list of locations
   - Provide answers to Frequently Asked Questions through the office handbook
   - Real-time updates of seating charts through the Contentful content infrastructure
+  
+### Demo
+##### Autocomplete Search
+![autocomplete](https://github.com/markab4/office-nav/blob/master/src/images/demo%20Autocomplete.png?raw=true)
+##### When Destination is On a Different Floor
+![switch floors](https://github.com/markab4/office-nav/blob/master/src/images/demo%20Head%20to%20the%20Stairs.png?raw=true)
+##### Navigate the Facilities
+![navigate facilities](https://github.com/markab4/office-nav/blob/master/src/images/demo%20Navigate%20facilities.png?raw=true)
+##### Click on a Section and See Who Sits There
+![people modal](https://github.com/markab4/office-nav/blob/master/src/images/demo%20People%20Modal.png?raw=true)
+##### Navigate from a Person to a Room (or vice versa)
+![people modal](https://github.com/markab4/office-nav/blob/master/src/images/demo%20Person%20to%20Room.png?raw=true)
+##### Click on a Room to See More Information About It
+![room modal](https://github.com/markab4/office-nav/blob/master/src/images/demo%20Room%20Modal.png?raw=true)
 
 ### Privacy
 Due to employee privacy concerns, all employees names and API tokens have been excluded from this repository. 
